@@ -69,15 +69,22 @@
             </div>
           </div>
      </nav>
-     <section>
+     <section class="relative">
         <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full">
+            <div id="slide1" class="carousel-item relative w-full relative">
               <img src="images/1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
-            </div> 
+            </div>
+       <!--bonus part  -->
+     </section>
+     <section class="lg:absolute lg:bottom-7 lg:right-10">
+        <div class="bg-black rounded-lg h-40 lg:w-[566px] p-8">
+          <h1 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h1>
+        <p class="text-white">Up coming sunday our club will play with our rival club, your all are invited. Enjoy the game!</p>
+        </div>
      </section>
    </header>
    <main class="container mx-auto">
@@ -91,7 +98,7 @@
           <div class="bg-base-100">
             <figure class="px-10 pt-10">
             <div class="text-center">
-              <div class="radial-progress text-[#FF4240] text-3xl font-extrabold" style="--value:87;" role="progressbar"><span class="font-extrabold text-3xl text-black">87%</span></div>
+              <div class="radial-progress text-[#FF4240] text-3xl font-extrabold" style="--value:87;" role="progressbar"><span class="font-extrabold text-2xl text-black">87%</span></div>
             </div>
             </figure>
             <div class="card-body items-center text-center">
@@ -105,7 +112,7 @@
           <div class="bg-base-100">
             <figure class="px-10 pt-10">
               <div class="text-center">
-                <div class="radial-progress text-[#49D293] text-3xl font-extrabold" style="--value:95;" role="progressbar"><span class="font-extrabold text-3xl text-black">95%</span></div>
+                <div class="radial-progress text-[#49D293] text-3xl font-extrabold" style="--value:95;" role="progressbar"><span class="font-extrabold text-2xl text-black">95%</span></div>
               </div>
             </figure>
             <div class="card-body items-center text-center">
@@ -119,7 +126,7 @@
           <div class="bg-base-100">
             <figure class="px-10 pt-10">
               <div class="text-center">
-                <div class="radial-progress text-[#FFB546] text-3xl font-extrabold" style="--value:90;" role="progressbar"><span class="font-extrabold text-3xl text-black">90%</span></div>
+                <div class="radial-progress text-[#FFB546] text-3xl font-extrabold" style="--value:90;" role="progressbar"><span class="font-extrabold text-2xl text-black">90%</span></div>
               </div>
             </figure>
             <div class="card-body items-center text-center">
@@ -133,7 +140,7 @@
           <div class="bg-base-100">
             <figure class="px-10 pt-10">
               <div class="text-center">
-                <div class="radial-progress text-[#4C8DF1] text-3xl font-extrabold" style="--value:80;" role="progressbar"><span class="font-extrabold text-3xl text-black">80%</span></div>
+                <div class="radial-progress text-[#4C8DF1] text-3xl font-extrabold" style="--value:80;" role="progressbar"><span class="font-extrabold text-2xl text-black">80%</span></div>
               </div>
             </figure>
             <div class="card-body items-center text-center">
@@ -471,18 +478,18 @@
           <div class="border-2 p-8 rounded-lg flex-1 space-y-4">
             <div class="border-2 p-8 rounded-lg bg-[#E9F7EF]">
               <img src="images/Group 1171275317.png" alt="">
-              <p>Phone number</p>
-              <p>(+62) 123-321-543</p>
+              <p class="text-gray-400">Phone number</p>
+              <p class="font-medium">(+62) 123-321-543</p>
             </div>
             <div class="border-2 p-8 rounded-lg bg-[#FEF5E7]">
               <img src="images/Group 1171275318.png" alt="">
-              <p>Email</p>
-              <p>hockeys@support.com</p>
+              <p class="text-gray-400">Email</p>
+              <p class="font-medium">hockeys@support.com</p>
             </div>
             <div class="border-2 p-8 rounded-lg bg-slate-100">
               <img src="images/Group 1171275321.png" alt="">
-              <p>Location</p>
-              <p>152/1 Mohakhali Wireless Gate</p>
+              <p class="text-gray-400">Location</p>
+              <p class="font-medium">152/1 Mohakhali Wireless Gate</p>
             </div>
           </div>
           <!-- form section -->
